@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #666;
+  height: 60px;
+}
+
+#header_h1 {
+  font-size: 55px;
+  margin-top: 0%;
+  color: #fff;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+form {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+input[type="text"] {
+  width: calc(50% - 5px);
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00c940;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008907;
+}
+
+#borrar {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#borrar:hover {
+  background-color: #890000;
+}
+
+#borrar_1 {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+}
+
+#borrar_1:hover {
+  background-color: #890000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  background-color: #b6b6b6;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+li {
+  margin-bottom: 20px;
+  width: 33%;
+  background-color: #666;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-right: 20%;
+}
+
+img {
+  max-width: 90%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  font-style: italic;
+  color: #ffffff;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #666;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
